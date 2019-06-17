@@ -1,4 +1,4 @@
-package edu.sse.ustc.edu.sse.ustc.controller;
+package edu.sse.ustc.controller;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.web.bind.annotation.PathVariable;

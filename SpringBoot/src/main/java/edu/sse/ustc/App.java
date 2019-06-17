@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author imarklei90
  * @since 2019.06.17
  */
-@SpringBootApplication()
+@SpringBootApplication
 public class App {
 
 	public static void main(String[] args) {
