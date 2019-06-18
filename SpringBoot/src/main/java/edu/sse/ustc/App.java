@@ -7,7 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author imarklei90
  * @since 2019.06.17
  */
-@SpringBootApplication
+// 可以替代了@Configuration 和 @EnableAutoConfiguration的功能
+@SpringBootApplication(scanBasePackages = {"edu.sse.ustc.controller", "edu.sse.ustc.interceptor"})
 public class App {
 
 	public static void main(String[] args) {
