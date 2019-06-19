@@ -4,8 +4,9 @@
 	@RequestMapping
 	@ResponseBody
 
-	@Value
+	@Value : 将属性值直接注入到Bean中
 	@ConfigurationProperties
+	@EnableConfigurationProperties
 	@ComponentScan : 组件扫描，可以查找到Bean
 	@EnableAutoConfiguration
 	@Configuration
