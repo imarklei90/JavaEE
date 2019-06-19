@@ -1,0 +1,16 @@
+1. SpringBoot注解
+
+	@Controller
+	@RequestMapping
+	@ResponseBody
+
+	@Value
+	@ConfigurationProperties
+	@ComponentScan : 组件扫描，可以查找到Bean
+	@EnableAutoConfiguration
+	@Configuration
+	@SpringBootApplication : 相当于@Configuration、@EnableAutoConfiguration @ComponentScan
+	@RestController
+	@Bean
+
+	@ImportResource
