@@ -15,7 +15,7 @@ public class TestExceptionController {
 	@RequestMapping("/testException")
 	@ResponseBody
 	public String show(){
-		int a = 1 / 0;
+		//int a = 1 / 0;
 		return "Test Exception";
 	}
 }
