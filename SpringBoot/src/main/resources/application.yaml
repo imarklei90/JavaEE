@@ -5,3 +5,8 @@ environments:
   prod:
     url: http://prod.com
     name: prod
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+#  path: /Projects/JavaEE/SpringBoot/log/
+#  file: /Projects/JavaEE/SpringBoot/log/springBoot.log
