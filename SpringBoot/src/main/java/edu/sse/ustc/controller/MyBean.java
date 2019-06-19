@@ -15,15 +15,6 @@ public class MyBean {
     @Value("${application.description}")
     private String description;
 
-    public MyBean(){
-
-    }
-
-    public MyBean(String name, String description){
-        this.name = name;
-        this.description = description;
-    }
-
     public String getName() {
         return name;
     }
