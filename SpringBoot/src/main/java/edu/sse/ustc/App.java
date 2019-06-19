@@ -3,13 +3,15 @@ package edu.sse.ustc;
 import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cache.annotation.EnableCaching;
 
 /** Spring Boot 启动类
  * @author imarklei90
  * @since 2019.06.17
  */
 // 可以替代了@Configuration 和 @EnableAutoConfiguration 和 @ComponentScan 的功能
-@SpringBootApplication(scanBasePackages = {"edu.sse.ustc.controller", "edu.sse.ustc.interceptor"})
+@SpringBootApplication //(scanBasePackages = {"edu.sse.ustc.controller", "edu.sse.ustc.interceptor","edu.sse.ustc.service"})
+@EnableCaching // 开启缓存
 public class App {
 
 	public static void main(String[] args) {

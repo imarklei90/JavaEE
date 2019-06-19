@@ -15,3 +15,5 @@
 	@Bean
 
 	@ImportResource
+
+	@EnableCaching : 开启缓存
