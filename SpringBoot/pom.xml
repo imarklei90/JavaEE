@@ -54,7 +54,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-redis</artifactId>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/redis.clients/jedis -->
+        <!-- Redis client依赖 -->
         <dependency>
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
