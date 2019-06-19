@@ -1,0 +1,7 @@
+environments:
+  dev:
+    url: http://dev.com
+    name: dev
+  prod:
+    url: http://prod.com
+    name: prod
