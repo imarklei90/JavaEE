@@ -18,3 +18,5 @@
 	@ImportResource
 
 	@EnableCaching : 开启缓存
+
+	@Valid : 表单验证
