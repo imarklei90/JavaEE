@@ -2,6 +2,7 @@
 
 	@Controller
 	@RequestMapping
+	@GetMapping
 	@ResponseBody
 
 	@Value : 将属性值直接注入到Bean中
