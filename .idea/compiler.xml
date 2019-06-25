@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SpringBoot" />
+        <module name="springCloud-consumer-dept-80" />
         <module name="springcloud-api" />
         <module name="springCloud-provider-dept-8001" />
       </profile>
@@ -15,6 +16,7 @@
       <module name="SpringBoot" target="1.7" />
       <module name="SpringCloud" target="1.7" />
       <module name="springcloud-api" target="1.7" />
+      <module name="springCloud-consumer-dept-80" target="1.7" />
       <module name="springCloud-provider-dept-8001" target="1.7" />
     </bytecodeTargetLevel>
   </component>

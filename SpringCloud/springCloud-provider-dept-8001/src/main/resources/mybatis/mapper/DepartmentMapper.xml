@@ -6,7 +6,7 @@
 
     <!-- 添加部门 -->
     <insert id="addDepartment" parameterType="Department">
-        insert into department(deptName, dbSource) values (#{deptname}, DATABASE());
+        insert into department(deptName, dbSource) values (#{deptName}, DATABASE());
     </insert>
 
     <!-- 按照ID查找部门 -->
