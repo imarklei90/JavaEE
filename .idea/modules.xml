@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaEE.iml" filepath="$PROJECT_DIR$/JavaEE.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot/SpringBoot.iml" filepath="$PROJECT_DIR$/SpringBoot/SpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/SpringCloud.iml" filepath="$PROJECT_DIR$/SpringCloud/SpringCloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/springCloud-provider-dept-8001/springCloud-provider-dept-8001.iml" filepath="$PROJECT_DIR$/SpringCloud/springCloud-provider-dept-8001/springCloud-provider-dept-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud/springcloud-api/springcloud-api.iml" filepath="$PROJECT_DIR$/SpringCloud/springcloud-api/springcloud-api.iml" />
     </modules>
   </component>
 </project>

@@ -2,5 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/SpringBoot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud/springCloud-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud/springCloud-provider-dept-8001" charset="UTF-8" />
   </component>
 </project>
