@@ -21,3 +21,16 @@ spring:
       initial-size: 5                                             # 初始化连接数
       max-total: 5                                                # 最大连接数
       max-wait-millis: 200                                        # 等待连接获取的最大超时时间
+
+eureka:
+  client:                                                         # 将客户端注册进Eureka服务列表内
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: microservicecloud-dept8001                       # 自定义服务名称信息
+    prefer-ip-address: true                                       # 访问路径可以显示IP地址
+
+info:                                                             # 微服务error页面配置
+  app.name: SpringCloud
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
