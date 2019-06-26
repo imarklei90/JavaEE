@@ -7,10 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SpringBoot" />
+        <module name="springCloud-eureka-7003" />
+        <module name="springCloud-eureka-7002" />
+        <module name="springCloud-eureka-7001" />
         <module name="springCloud-provider-dept-8001" />
         <module name="springCloud-consumer-dept-80" />
-        <module name="springCloud-eureka-7001" />
-        <module name="springcloud-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,8 @@
       <module name="springcloud-api" target="1.7" />
       <module name="springCloud-consumer-dept-80" target="1.7" />
       <module name="springCloud-eureka-7001" target="1.7" />
+      <module name="springCloud-eureka-7002" target="1.7" />
+      <module name="springCloud-eureka-7003" target="1.7" />
       <module name="springCloud-provider-dept-8001" target="1.7" />
     </bytecodeTargetLevel>
   </component>

@@ -10,6 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>springCloud-api</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>springCloud-eureka-7002</module>
+    </modules>
 
     <!-- 当前Module需要用到的Jar，按需要添加，如果父工程中已经存在，可以不写版本号 -->
     <dependencies>
