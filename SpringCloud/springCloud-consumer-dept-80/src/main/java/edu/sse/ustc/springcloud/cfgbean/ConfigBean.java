@@ -1,5 +1,6 @@
 package edu.sse.ustc.springcloud.cfgbean;
 
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
@@ -16,6 +17,7 @@ public class ConfigBean {
 	 * @return
 	 */
 	@Bean
+	@LoadBalanced // Ribbon实现客户端负载均衡
 	public RestTemplate getRestTemplate(){
 		return new RestTemplate();
 	}

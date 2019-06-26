@@ -17,7 +17,8 @@ import java.util.List;
 @RestController
 public class DepartmentController_Consumer {
 
-	private static final String REST_URL_PREFIX = "http://localhost:8001";
+	//private static final String REST_URL_PREFIX = "http://localhost:8001";
+	private static final String REST_URL_PREFIX = "http://springCloud-dept";
 
 	/**
 	 * 提供了多种便捷访问远程HTTP服务的方法，是Spring提供的用于访问Rest服务的客户端模版工具集
