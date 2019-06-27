@@ -40,7 +40,6 @@ public class DepartmentController {
 
 	/**
 	 * Eureka服务发现
-	 * @return
 	 */
 	@RequestMapping(value = "/department/discovery", method = RequestMethod.GET)
 	public Object discovery(){

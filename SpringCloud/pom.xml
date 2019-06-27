@@ -17,6 +17,11 @@
         <module>springCloud-eureka-7003</module>
         <module>springCloud-provider-dept-8002</module>
         <module>springCloud-provider-dept-8003</module>
+        <module>springCloud-consumer-dept-feign</module>
+        <module>springCloud-provider-dept-hystrix-8001</module>
+        <module>springcloud-consumer-hystrix-dashboard</module>
+        <module>springcloud-zuul-gateway-9527</module>
+        <module>springCloud-config-3344</module>
     </modules>
     <packaging>pom</packaging>
 
