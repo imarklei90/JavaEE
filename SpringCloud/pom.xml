@@ -22,6 +22,9 @@
         <module>springcloud-consumer-hystrix-dashboard</module>
         <module>springcloud-zuul-gateway-9527</module>
         <module>springCloud-config-3344</module>
+        <module>springCloud-config-client-3355</module>
+        <module>springCloud-config-eureka-client-7001</module>
+        <module>springCloud-config-dept-client-8001</module>
     </modules>
     <packaging>pom</packaging>
 

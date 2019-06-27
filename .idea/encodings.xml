@@ -5,6 +5,9 @@
     <file url="file://$PROJECT_DIR$/SpringCloud" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud/springCloud-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud/springCloud-config-3344" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud/springCloud-config-client-3355" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud/springCloud-config-dept-client-8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud/springCloud-config-eureka-client-7001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud/springCloud-consumer-dept-80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud/springCloud-consumer-dept-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud/springCloud-eureka-7001" charset="UTF-8" />
@@ -14,7 +17,7 @@
     <file url="file://$PROJECT_DIR$/SpringCloud/springCloud-provider-dept-8002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud/springCloud-provider-dept-8003" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud/springCloud-provider-dept-hystrix-8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud/springCloud-zuul-gateway-9527" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud/springcloud-consumer-hystrix-dashboard" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SpringCloud/springcloud-zuul-gateway-9527" charset="UTF-8" />
   </component>
 </project>

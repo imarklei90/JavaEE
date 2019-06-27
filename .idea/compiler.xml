@@ -6,19 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SpringBoot" />
-        <module name="springCloud-config-3344" />
+        <module name="springCloud-config-dept-client-8001" />
         <module name="springCloud-provider-dept-8003" />
-        <module name="springCloud-consumer-dept-feign" />
-        <module name="springCloud-consumer-dept-80" />
-        <module name="springcloud-zuul-gateway-9527" />
-        <module name="springcloud-consumer-hystrix-dashboard" />
-        <module name="springCloud-eureka-7003" />
-        <module name="springCloud-eureka-7002" />
-        <module name="springCloud-eureka-7001" />
-        <module name="springCloud-provider-dept-8001" />
         <module name="springCloud-provider-dept-8002" />
+        <module name="springCloud-provider-dept-8001" />
+        <module name="springCloud-config-3344" />
+        <module name="springCloud-eureka-7002" />
+        <module name="springCloud-config-client-3355" />
         <module name="springCloud-provider-dept-hystrix-8001" />
+        <module name="springcloud-consumer-hystrix-dashboard" />
+        <module name="springCloud-zuul-gateway-9527" />
+        <module name="springCloud-eureka-7003" />
+        <module name="SpringBoot" />
+        <module name="springCloud-eureka-7001" />
+        <module name="springCloud-consumer-dept-80" />
+        <module name="springCloud-config-eureka-client-7001" />
+        <module name="springCloud-consumer-dept-feign" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -26,6 +29,9 @@
       <module name="SpringCloud" target="1.7" />
       <module name="springcloud-api" target="1.7" />
       <module name="springCloud-config-3344" target="1.7" />
+      <module name="springCloud-config-client-3355" target="1.7" />
+      <module name="springCloud-config-dept-client-8001" target="1.7" />
+      <module name="springCloud-config-eureka-client-7001" target="1.7" />
       <module name="springCloud-consumer-dept-80" target="1.7" />
       <module name="springCloud-consumer-dept-feign" target="1.7" />
       <module name="springcloud-consumer-hystrix-dashboard" target="1.7" />
@@ -36,7 +42,7 @@
       <module name="springCloud-provider-dept-8002" target="1.7" />
       <module name="springCloud-provider-dept-8003" target="1.7" />
       <module name="springCloud-provider-dept-hystrix-8001" target="1.7" />
-      <module name="springcloud-zuul-gateway-9527" target="1.7" />
+      <module name="springCloud-zuul-gateway-9527" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
