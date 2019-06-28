@@ -26,8 +26,8 @@
             <artifactId>spring-cloud-starter-eureka</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.atguigu.springcloud</groupId>
-            <artifactId>microservicecloud-api</artifactId>
+            <groupId>edu.sse.ustc</groupId>
+            <artifactId>springCloud-api</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>

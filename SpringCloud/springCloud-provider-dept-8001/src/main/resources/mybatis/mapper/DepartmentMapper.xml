@@ -5,16 +5,16 @@
 <mapper namespace="edu.sse.ustc.springcloud.dao.DepartmentDao">
 
     <!-- 添加部门 -->
-    <insert id="addDepartment" parameterType="Department">
+    <insert id="addDepartment" parameterType="department">
         insert into department(deptName, dbSource) values (#{deptName}, DATABASE());
     </insert>
 
     <!-- 按照ID查找部门 -->
-    <select id="findById" resultType="Department" parameterType="Long">
+    <select id="findById" resultType="department" parameterType="Long">
         select deptNo, deptName, dbSource from department where deptNo = #{deptNo};
     </select>
 
-    <select id="findAll" resultType="Department">
+    <select id="findAll" resultType="department">
         select deptNo, deptName, dbSource from department;
     </select>
     

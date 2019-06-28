@@ -8,4 +8,10 @@
         &lt;!&ndash; 开启二级缓存 &ndash;&gt;
         <setting name="cacheEnable" value="true"/>
     </settings>-->
+
+    <!--  定义别名 -->
+    <typeAliases>
+        <typeAlias type="edu.sse.ustc.springcloud.entity.Department" alias="department"/>
+    </typeAliases>
+
 </configuration>
