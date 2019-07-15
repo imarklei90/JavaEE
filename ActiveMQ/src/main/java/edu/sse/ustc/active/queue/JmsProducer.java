@@ -34,6 +34,9 @@ public class JmsProducer {
 		// 创建消息生产者
 		MessageProducer messageProducer = session.createProducer(queue);
 
+		// 设置消息的持久化方式(默认是持久化的，但是只保证被发送一次和成功使用一次)
+		messageProducer.setDeliveryMode(DeliveryMode.NON_PERSISTENT);
+
 		// 通过使用消息生产者生产三条消息发送到MQ队列
 		for (int i = 1; i <= 3; i++) {
 			// 创建消息
