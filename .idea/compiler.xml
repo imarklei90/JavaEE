@@ -11,7 +11,7 @@
         <module name="springCloud-provider-dept-8003" />
         <module name="springCloud-provider-dept-8002" />
         <module name="springCloud-provider-dept-8001" />
-        <module name="ActiveMQ" />
+        <module name="springCloud-consumer-dept-80" />
         <module name="springCloud-config-dept-client-8001" />
         <module name="springCloud-eureka-7002" />
         <module name="springCloud-config-client-3355" />
@@ -21,13 +21,13 @@
         <module name="springCloud-eureka-7003" />
         <module name="SpringBoot" />
         <module name="springCloud-eureka-7001" />
-        <module name="springCloud-consumer-dept-80" />
+        <module name="ActiveMQ" />
         <module name="springCloud-config-eureka-client-7001" />
         <module name="springCloud-consumer-dept-feign" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ActiveMQ" target="8" />
+      <module name="ActiveMQ" target="1.7" />
       <module name="SpringBoot" target="1.7" />
       <module name="SpringCloud" target="1.7" />
       <module name="springcloud-api" target="1.7" />

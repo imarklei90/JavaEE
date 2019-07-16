@@ -1,4 +1,4 @@
-package edu.sse.ustc.active.queue;
+package edu.sse.ustc.activemq.queue;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
 
